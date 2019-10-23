@@ -1,0 +1,158 @@
+/* Default payment form styles, used by TA VR Responsive ccentry form */
+
+.hidden {
+	visibility: hidden;
+}
+
+#cdeform, fieldset {
+	border-width: 0;
+	padding: 0;
+	margin: 0;
+}
+
+.formColumn {
+	padding-bottom: 5px;
+}
+
+body {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 14px;
+	margin: 0;
+}
+
+/****
+ * Form Fields
+ */
+.formInput {
+	font-size: 14px;
+	height: 42px;
+	padding: 0 0 0 10px;
+	margin-bottom: 5px;
+    border-radius: 2px;
+}
+
+input {
+	border: 1px solid #bdbdbd;
+	background-color: white;
+	color: #2c2c2c;
+}
+
+.formLabel {
+	margin-top: 3px;
+	display:block;
+	font-size: 14px;
+}
+
+.formInputWrapper {
+	display: inline-block;
+	float: left;
+	margin-right:15px;
+}
+
+label.formLabel {
+	color: #2c2c2c;
+	margin-bottom: 5px;
+	display: block;
+	clear: both;
+}
+
+select.formInput {
+	border: 1px solid #bdbdbd;
+	background-color: white;
+	min-width: 120px;
+	font-size: 14px;
+	margin-right: 14px;
+    height: 44px;   
+}
+
+
+#creditCard {
+	width: 250px;
+}
+
+#creditCardContainer {
+	display: -webkit-inline-flex;
+	display: inline-flex;
+	flex-wrap: wrap;
+	-webkit-flex-wrap: wrap;
+}
+
+#creditCardType {
+	margin: auto 0;
+	padding-bottom: 0;
+}
+
+
+.ccSecurity {
+	min-width: 108px;
+}
+
+.expirationContainer {
+    display: inline-block;
+    float: left;
+}
+
+.requiredFieldsAsterisk {
+	color: #C40000;
+}
+
+/**
+* Form errors styling
+*/
+label.errorMsg {
+	font-size: 14px;
+}
+
+.errorMsg {
+	font-size: 14px;
+	color: #C40000;
+	display: block;
+	max-width: 250px;
+	overflow: visible;
+	white-space: nowrap;
+}
+
+.hasError {
+	border-color: #C40000;
+	background-color: #FFF5ED;
+}
+
+/****
+ * Credit Card Icons
+ */
+.svgIcon {
+	display: inline-block;
+	background-repeat: no-repeat;
+	background-size: contain;
+	background-position: center center;
+    width: 51px;
+	height: 32px;
+    vertical-align: middle;
+}
+
+.green_form_correct {
+	background-image: url("../img/green_form_correct.svg");
+	margin-left: -27px;
+	margin-top: -5px;
+	vertical-align: middle;
+	height: 21px;
+	width: 18px;
+}
+
+.pf_visa_logo_small {
+	background-image: url("../img/visa_active.svg");
+}
+.pf_mastercard_logo_small {
+	background-image: url("../img/mastercard_active.svg");
+}
+.pf_amex_logo_small {
+	background-image: url("../img/amex_active.svg");
+}
+.pf_discover_logo_small {
+	background-image: url("../img/discover_active.svg");
+}
+
+.inactive {
+	opacity: 0.4;
+	filter: alpha(opacity=40); /* msie */
+}
