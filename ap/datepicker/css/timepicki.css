@@ -1,0 +1,209 @@
+
+/* 
+Created on: 17 Sep, 2014, 4:29:37 PM
+Author: senthil
+*/
+
+.ti_tx,
+.mi_tx,
+.mer_tx {
+	width: 100%;
+	text-align: center;
+	margin: 10px 0;
+}
+
+.time,
+.mins,
+.meridian {
+	width: 60px;
+	float: left;
+	margin: 0 10px;
+	font-size: 20px;
+	color: #2d2e2e;
+	font-family: arial;
+	font-weight: 700;
+}
+
+.prev,
+
+
+.prev:hover,
+.next:hover {
+	background-color: #ccc;
+}
+
+.next {
+	background-position: 50% 150%;
+}
+
+.prev {
+	background-position: 50% -50%;
+}
+
+.time_pick {
+	position: relative;
+}
+._z8lbtc {
+    border: none !important;
+    margin: 0px !important;
+    padding: 0px !important;
+}
+common_o2.1-3c8…f4b0cc50.css:7
+fieldset {
+    margin: 0;
+    border: 0;
+    padding: 0;
+}
+._1m8bb6v {
+    position: absolute !important;
+    display: block !important;
+    border: 0px !important;
+    margin: -1px !important;
+    padding: 0px !important;
+    height: 1px !important;
+    width: 1px !important;
+    clip: rect(0, 0, 0, 0) !important;
+    overflow: hidden !important;
+}
+legend {
+    border: 0;
+    padding: 0;
+}
+._2930ex {
+    display: table !important;
+    width: 100% !important;
+}
+._10ejfg4u {
+    display: table-cell !important;
+    width: 100% !important;
+    vertical-align: middle !important;
+}
+._mke2gl1 {
+    display: table !important;
+    margin-right: 12px !important;
+}
+._33hj8bi {
+    font-weight: normal !important;
+    margin: 0px !important;
+    word-wrap: break-word !important;
+    font-family: Circular,-apple-system,BlinkMacSystemFont,Roboto,Helvetica Neue,sans-serif !important;
+    font-size: 19px !important;
+    line-height: 24px !important;
+    letter-spacing: undefined !important;
+    padding-top: 0px !important;
+    padding-bottom: 0px !important;
+    color: #484848 !important;
+}
+
+.timepicker_wrap {
+background: #ffffff !important;
+    position: absolute !important;
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.15), 0 0 0 1px rgba(0, 0, 0, 0.07) !important;
+    border-radius: 3px !important;
+    width: 100% !important;
+    min-width: 280px !important;
+    text-align: left !important;
+    padding: 0 16px !important;
+    margin-bottom: 16px !important;
+    -moz-box-sizing: border-box !important;
+    box-sizing: border-box !important;
+    z-index: 2 !important;
+    margin-top: 8px !important;
+    right: 0px !important;
+}
+._1fb7ddvw {
+    display: table !important;
+    width: 120px !important;
+}
+._bggte43 {
+    display: inline-block !important;
+    cursor: pointer !important;
+    border-radius: 50% !important;
+    text-align: center !important;
+    line-height: 1 !important;
+    position: relative !important;
+    -ms-touch-action: manipulation !important;
+    touch-action: manipulation !important;
+    border: 2px solid transparent !important;
+    border-color: #008489 !important;
+    background: transparent !important;
+    width: 32px !important;
+    height: 32px !important;
+    border-width: 1px !important;
+}
+._7eamzqx {
+    display: table-cell !important;
+    vertical-align: middle !important;
+    text-align: left !important;
+}
+._bggte43:disabled {
+    cursor: default !important;
+    border-color: rgba(0, 132, 137, 0.3) !important;
+    background: transparent !important;
+}
+button[disabled], html input[disabled] {
+    cursor: default;
+}
+8599757?guests=…2018-03-14:217
+._bggte43 {
+    display: inline-block !important;
+    cursor: pointer !important;
+    border-radius: 50% !important;
+    text-align: center !important;
+    line-height: 1 !important;
+    position: relative !important;
+    -ms-touch-action: manipulation !important;
+    touch-action: manipulation !important;
+    border: 2px solid transparent !important;
+    border-color: #008489 !important;
+    background: transparent !important;
+    width: 32px !important;
+    height: 32px !important;
+    border-width: 1px !important;
+}
+._yp54zvx {
+    display: inline-block !important;
+    position: absolute !important;
+    top: 50% !important;
+    left: 50% !important;
+    -webkit-transform: translate(-50%, -50%) !important;
+    -ms-transform: translate(-50%, -50%) !important;
+    transform: translate(-50%, -50%) !important;
+    color: rgba(0, 132, 137, 0.3) !important;
+    font-size: 16px !important;
+}
+
+._zac1rbz {
+    display: table-cell !important;
+    vertical-align: middle !important;
+    text-align: center !important;
+}
+._1a72ixey {
+    display: table-cell !important;
+    vertical-align: middle !important;
+    text-align: right !important;
+}
+
+.arrow_top {
+	position: absolute;
+	top: -10px;
+	left: 20px;
+	background: url(../images/top_arr.png) no-repeat;
+	width: 18px;
+	height: 10px;
+	z-index: 999;
+}
+input.timepicki-input {
+	background: none repeat scroll 0 0 #FFFFFF;
+    	border: 1px solid #CCCCCC;
+    	border-radius: 5px 5px 5px 5px;
+    	float: none;
+    	margin: 0;
+    	text-align: center;
+    	width: 70%;
+}
+a.reset_time {
+	float: left;
+	margin-top: 5px;
+	color: #000;
+}
