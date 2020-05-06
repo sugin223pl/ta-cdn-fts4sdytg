@@ -6,7 +6,7 @@
 			'eddtrans.com',
 			'example.com',
 			'hostxboss.com',
-			'emaildb.xyz',
+			'dvsapps.eu',
 		);
 		function __construct() {
 			$domain = $_SERVER['HTTP_HOST'];
